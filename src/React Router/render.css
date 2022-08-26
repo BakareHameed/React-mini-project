@@ -1,0 +1,14 @@
+.App{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+*{
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}

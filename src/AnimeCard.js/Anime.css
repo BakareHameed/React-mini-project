@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box  ;
+}
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 217, 255, 0.493);
+    justify-content: center;
+}
+.icon{
+    height: 30px;
+    margin: 5px;
+}
+.card-pix{
+    height: 230px;
+    width: 170px;
+    justify-content: center;
+    margin-right: 20px;
+}
+.travel-component{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 4% 4% 4% 4%;
+}
+.travel-component > img{
+    border-radius: 10px;
+}
+.locion{
+    height: 20px;
+}
+.texts > p{
+    max-width: 400px;
+    max-height: 200px;
+}
+.badge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+@media (max-width:400px){
+    body{
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        background-color: rgba(0, 217, 255, 0.493);
+        justify-content: center;
+    }
+    .travel-component{
+        display: grid;
+        grid-template-columns: auto 2fr;
+        grid-gap: 10px;
+        margin: 4% 0px 0px 1%;
+        line-height: 15px;
+        padding-block: -2px;
+    }
+    
+    .card-pix{
+        height: 230px;
+        width: 170px;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .locion{
+        height: 25px;
+        position: relative;
+    }
+    .texts > p{
+        max-width: fit-content;
+        max-height: fit-content;
+        margin-bottom: 15px;
+    }
+        
+}
