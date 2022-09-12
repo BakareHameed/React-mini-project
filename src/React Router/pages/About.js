@@ -1,12 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
 
 const About = () => {
-    return(
-        <section>
-            <h1>About page</h1>
-            <Link to='/'>Home</Link>
-        </section>
-    )
+  return (
+    <div><h2>About</h2></div>
+  )
 }
-export default About;
+
+export default About

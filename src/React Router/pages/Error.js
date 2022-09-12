@@ -1,13 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
 
-const Error = () =>{
-    return(
-        <section>
-            <h2>404</h2>
-            <p>Page not found</p>
-            <Link to='/'>Home</Link>
-        </section>
-    )
+const Error = () => {
+  return (
+    <div>
+        <h2>Error 404</h2>
+        <p>This page is not available</p>
+    </div>
+  )
 }
-export default Error;
+
+export default Error
